@@ -1,0 +1,39 @@
+{
+  "hosting": [{
+    "target": "master",
+    "public": "build",
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
+    ],
+    "rewrites": [
+      {
+        "source": "/links/**",
+        "dynamicLinks": true
+      },
+      {
+        "source": "**",
+        "destination": "/index.html"
+      }
+    ]
+  }, {
+    "target": "staging",
+    "public": "build",
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
+    ],
+    "rewrites": [
+      {
+        "source": "preview.html",
+        "destination": "/preview.html"
+      },
+      {
+        "source": "**",
+        "destination": "/index.html"
+      }
+    ]
+  }]
+}

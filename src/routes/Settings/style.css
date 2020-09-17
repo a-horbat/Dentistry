@@ -1,0 +1,20 @@
+.wrappedInput:focus {
+  border: 1px solid #333333 !important;
+}
+
+.expandedInput {
+  border-top-left-radius: 6px !important;
+  border-top-right-radius: 6px !important;
+  border-bottom-right-radius: 0 !important;
+  border-bottom-left-radius: 0 !important;
+}
+
+.expandedInput:focus {
+  border-top: 1px solid #333333 !important;
+  border-left: 1px solid #333333 !important;
+  border-right: 1px solid #333333 !important;
+}
+
+.MuiSnackbar-anchorOriginBottomLeft {
+  left: 258px !important;
+}

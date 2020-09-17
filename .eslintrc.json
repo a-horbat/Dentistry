@@ -1,0 +1,16 @@
+{
+  "extends": [
+    "airbnb",
+    "airbnb/hooks",
+    "eslint-config-airbnb/whitespace",
+    "prettier"
+  ],
+  "plugins": ["prettier"],
+  "parser": "babel-eslint",
+  "rules": {
+    "prettier/prettier": ["error"],
+    "react/jsx-filename-extension": [1, { "extensions": [".js", ".jsx"] }],
+    "no-restricted-globals": ["off"],
+    "react/prop-types": 0
+  }
+}

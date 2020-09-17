@@ -1,0 +1,18 @@
+{
+  "projects": {
+    "production": "red-archive-248302",
+    "default": "red-archive-248302"
+  },
+  "targets": {
+    "red-archive-248302": {
+      "hosting": {
+        "master": [
+          "app-base86-prod"
+        ],
+        "staging": [
+          "red-archive-248302"
+        ]
+      }
+    }
+  }
+}

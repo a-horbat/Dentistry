@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <link rel="icon" href="favicon.ico" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="theme-color" content="#000000" />
+  <meta name="description"
+    content="Base86 helps businesses determine cost of goods sold. Send invoices to begin extracting and analyzing critical business information." />
+  <link rel="apple-touch-icon" href="logo192w.png" />
+  <title>Base86 Preview</title>
+  <style>
+    body {
+      margin: 0;
+      width: 100%;
+      overflow-x: hidden;
+      overflow-y: auto;
+      text-align: center;
+    }
+
+    .iphone-frame {
+      position: absolute;
+      top: 0px;
+      left: 50%;
+      transform: translate3d(-50%, 0, 0);
+      width: 950px;
+      margin: auto;
+    }
+
+    .app-frame {
+      position: absolute;
+      top: 102px;
+      left: 0;
+      right: 0;
+      width: 368px;
+      height: 770px;
+      margin: auto;
+      border-radius: 10px 10px 45px 45px;
+      overflow: hidden;
+    }
+
+    @media all and (max-width: 400px) {
+      .app-frame {
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        width: 100%;
+        height: 100%;
+        border-radius: 0;
+      }
+
+      .iphone-frame {
+        display: none;
+      }
+    }
+  </style>
+</head>
+
+<body class="text-center w-100">
+  <img src="iphone-x.png" class="iphone-frame" />
+  <div class="app-frame">
+    <iframe src="/preview" frameborder="0" width="100%" height="100%"></iframe>
+  </div>
+</body>
+
+</html>
